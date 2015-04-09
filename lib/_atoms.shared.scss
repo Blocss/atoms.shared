@@ -1,0 +1,37 @@
+@charset "UTF-8";
+/*! blocss-shared v0.0.1 | MIT License | github.com/Blocss */
+
+/*----------------------------------------------------------------------------*\
+    ATOMS.RESET
+    Contains several high-level rulesets which apply a consistent, shared
+    declaration (typically margins) across a number of elements.
+\*----------------------------------------------------------------------------*/
+
+/**
+ * Applies vertical rhythm to designated elements
+ * As per: http://csswizardry.com/2012/06/single-direction-margin-declarations
+ */
+hgroup,
+.hgroup,
+ul,
+ol,
+dl,
+blockquote,
+p,
+address,
+table,
+fieldset,
+pre,
+hr {
+    @include rem(margin-bottom, $blocss-space);
+}
+
+
+/**
+ * Default indentation value for lists
+ */
+ul,
+ol,
+dd {
+    @include rem(margin-left, $blocss-base-line-height);
+}
