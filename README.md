@@ -1,4 +1,4 @@
-# Blocss: atoms.shared – v0.0.1
+# Blocss: atoms.shared – v1.0.0
 
 The `shared` module contains several high-level rulesets which apply a
 consistent, shared declaration (typically margins) across a number of
