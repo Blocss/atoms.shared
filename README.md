@@ -1,4 +1,6 @@
-# Blocss: atoms.shared – v1.0.1
+# Blocss: atoms.shared – v1.0.1 - Deprecated
+
+**This module has been moved to: ([https://github.com/Blocss/blocss](https://github.com/Blocss/blocss))**
 
 The `shared` module contains several high-level rulesets which apply a
 consistent, shared declaration (typically margins & line-heights) across a number of
